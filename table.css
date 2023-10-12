@@ -1,0 +1,71 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial;
+    align-content: center;
+    padding: 48px;
+}
+.container
+{
+
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teams{
+
+     font-family: Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     border-radius: 5px;
+     border-bottom: 3px solid #04aa6d;
+
+
+}
+
+td, th {
+    border-bottom: 3px solid #ddd;
+    padding: 16px;
+
+}
+.table-body tr:nth-child(even){
+    background-color: #E2DFDF;
+}
+.teams th{
+    padding: 12px 0;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+}
+#nick td{
+     border-radius: 5px;
+     border-bottom: 3px solid #04aa6d;
+}
+#formbody{
+    background-color: darkslateblue;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    background-color: white;
+    padding: 16px;
+    max-width: 300px;
+    width: 100%;
+
+}
+.form-wrapper{
+    border: 2px solid #ddd;
+    padding: 24px;
+}
+input{
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+select{
+    background-color: olive;
+    color: yellow;
+    border: 2px solid darkgrey;
+}
+
+
